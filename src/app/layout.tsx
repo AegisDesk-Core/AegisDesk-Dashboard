@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "AegisDesk | Enterprise Multi-Tenant AI Customer Support Platform",
   description:
     "Turn company documents and PDFs into intelligent, reliable customer support assistants. Multi-tenant data isolation, RAG vector retrieval, and LangGraph orchestration.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
